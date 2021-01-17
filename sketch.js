@@ -90,9 +90,5 @@ function keyPressed() {
 	Matter.Body.setStatic(packageBody, false);
     
   }
-	 if (keyCode === LEFT_ARROW) {
-    // Look at the hints in the document and understand how to make the package body fall only on press of the Down arrow key.
-	Matter.Body.setforce(packageBody, {x:50,y:30});
-    
-  }
+	
 }
